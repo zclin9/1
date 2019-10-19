@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>10月19日</title>
+</head>
+<body>
+    <!-- 当前标签页打开页面 -->
+    <a href="https://www.baidu.com/?tn=sitehao123_15">百度</a>
+    <br>
+    <!-- 新标签页打开页面 -->
+    <a href="https://www.baidu.com/?tn=sitehao123_15" target="_blank">百度</a>
+   
+    <!-- 无序列表 -->
+    <ul>
+        <li>111</li>
+        <li>222</li>
+    </ul>
+    <!-- 有序列表 -->
+    <ol>
+        <li>111</li>
+        <li>222</li>
+    </ol>
+    
+    <!-- div+css 布局(无特定含义) -->
+    <!-- div、h1~h6、p 块级元素(单个元素占一行) 
+         span、a 行级元素(多个元素占一行) 
+         img行级块元素(既有行级元素特点又有块级元素特点)-->
+    <!-- 块级元素可嵌套行级、块级、行级块 （p、h1~h6除外）
+         行级元素只能嵌套行级 -->
+    <div>123456</div>     <div>123456</div>
+    <span>123456</span>   <span>123456</span>
+    
+    <!-- table 表格
+         tr 行
+         td 列（单元格）
+         border 边框属性 -->
+    <table border="1">
+        <tr>
+            <td>123</td>
+            <td>456</td>
+        </tr>
+        <tr>
+            <td>123</td>
+            <td>456</td>
+        </tr>
+    </table>
+
+    <!-- form 表单
+         action 提交的地址 -->
+    <!-- input输入框
+         type=text 文本 
+         type=password 密码-->
+    <form action="">
+        姓名：<input type="text" value="zcl"> 
+        密码：<input type="password"> 
+        <br>
+        <!--  type="radio"单选框 -->
+        性别：<input type="radio" name="sex。">男
+              <input type="radio" name="sex。">女
+        <br>
+        <!-- label for将文字与框连接 -->
+        性别：<input type="radio" name="sex" id="boy"> <label for="boy">男</label> 
+              <input type="radio" name="sex" id="girl"> <label for="girl">女</label>
+
+        <br>
+        <!-- type="checkbox" 复选框 
+             checked当前被选中 -->
+        水果
+        <input type="checkbox" name="fruit" id="apple" checked><label for="apple">苹果</label>
+        <input type="checkbox" name="fruit" id="pear"><label for="pear">梨</label>
+        
+        <br>
+        <!-- 下拉列表 -->
+        年级
+        <select>
+            <option>19</option>
+            <option>18</option>
+            <option>17</option>
+        </select>
+        
+        <br>
+        <!-- 文本域   rows 行  cols 列 -->
+        <textarea cols="30" rows="10">123456</textarea>
+        <input type="submit" value="提交11">
+        <button>按钮</button>
+
+    </form>
+   
+</body>
+</html>
